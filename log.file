@@ -1,0 +1,995 @@
+2023-10-06 15:34:17 - https://api.telegram.org/bot6501371678:AAGVh68vMda0BX_7---hh_SbjF9WuVjk7ro/sendMessage?chat_id=-1001974460578&parse_mode=html&text=Ім'я: %D0%90%D0%BD%D1%82%D0%BE%D0%BD+%D0%93%D0%BB%D1%83%D1%89%D0%B5%D0%BD%D0%BA%D0%BE%0AТелефон: %2B380683266551%0AПошта: glantoshka%40gmail.com%0AОтримати каталог на: Telegram%0A
+2023-10-06 15:34:17 - stdClass Object
+(
+    [ok] => 1
+    [result] => stdClass Object
+        (
+            [message_id] => 35
+            [from] => stdClass Object
+                (
+                    [id] => 6501371678
+                    [is_bot] => 1
+                    [first_name] => nasoloda bot
+                    [username] => chat_nasoloda_bot
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => -1001974460578
+                    [title] => Насолода - чат бот
+                    [type] => supergroup
+                )
+
+            [date] => 1696606457
+            [text] => Ім'я: Антон Глущенко
+Телефон: +380683266551
+Пошта: glantoshka@gmail.com
+Отримати каталог на: Telegram
+            [entities] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [offset] => 30
+                            [length] => 13
+                            [type] => phone_number
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [offset] => 51
+                            [length] => 20
+                            [type] => email
+                        )
+
+                )
+
+        )
+
+)
+
+2023-10-06 15:34:17 - Array
+(
+    [username] => Антон Глущенко
+    [phone] => +380683266551
+    [email] => glantoshka@gmail.com
+    [select] => Array
+        (
+            [0] => Telegram
+        )
+
+)
+
+2023-10-06 15:34:17 - WPCF7_ContactForm Object
+(
+    [id:WPCF7_ContactForm:private] => 26
+    [name:WPCF7_ContactForm:private] => get-catalog-form
+    [title:WPCF7_ContactForm:private] => Отримати каталог
+    [locale:WPCF7_ContactForm:private] => uk
+    [properties:WPCF7_ContactForm:private] => Array
+        (
+            [form] => <div class="form__heading">
+          <steong class="form__title">отримати каталог</steong>
+          <p class="form__desc">
+            Заповніть дані і наш менеджер зателефонує вам
+          </p>
+        </div>
+        <div class="form__field-list">
+            [text* username class:form__field autocomplete:name placeholder "Им’я"]
+            [tel* phone class:form__field autocomplete:tel placeholder "+38 ( )"]
+            [email* email class:form__field autocomplete:email placeholder "Email"]
+            [select* select class:form__field class:form__field-select "Зручний спосіб для отримання" "Email" "Telegram" "WhatsApp"]
+        </div>
+        [submit  class:form__button class:click "ВІДПРАВИТИ"]
+        <button type="button" class="form__close get-catalog__close click">
+          <img class="header__menu-img" src="/wp-content/themes/nasoloda/svg/burger-close.svg" alt="меню" />
+        </button>
+            [mail] => Array
+                (
+                    [active] => 1
+                    [subject] => [_site_title] "[your-subject]"
+                    [sender] => [_site_title] <wordpress@pleasure>
+                    [recipient] => [_site_admin_email]
+                    [body] => Від: [your-name] [your-email]
+Тема: [your-subject]
+
+Текст повідомлення:
+[your-message]
+
+-- 
+This is a notification that a contact form was submitted on your website ([_site_title] [_site_url]).
+                    [additional_headers] => Reply-To: [your-email]
+                    [attachments] => 
+                    [use_html] => 
+                    [exclude_blank] => 
+                )
+
+            [mail_2] => Array
+                (
+                    [active] => 
+                    [subject] => [_site_title] "[your-subject]"
+                    [sender] => [_site_title] <wordpress@pleasure>
+                    [recipient] => [your-email]
+                    [body] => Текст повідомлення:
+[your-message]
+
+-- 
+This email is a receipt for your contact form submission on our website ([_site_title] [_site_url]) in which your email address was used. If that was not you, please ignore this message.
+                    [additional_headers] => Reply-To: [_site_admin_email]
+                    [attachments] => 
+                    [use_html] => 
+                    [exclude_blank] => 
+                )
+
+            [messages] => Array
+                (
+                    [mail_sent_ok] => Дякуємо за Ваше повідомлення. Воно було надіслане.
+                    [mail_sent_ng] => Сталася помилка під час спроби відправити Ваше повідомлення. Будь ласка, спробуйте ще раз пізніше.
+                    [validation_error] => Одне або декілька полів містять помилкові дані. Будь ласка, перевірте їх і спробуйте ще раз.
+                    [spam] => Сталася помилка під час спроби відправити Ваше повідомлення. Будь ласка, спробуйте ще раз пізніше.
+                    [accept_terms] => Ви повинні прийняти умови та положення перед тим, як відправляти Ваше повідомлення.
+                    [invalid_required] => Будь ласка, заповніть це поле.
+                    [invalid_too_long] => Це поле містить занадто довгі дані.
+                    [invalid_too_short] => Це поле містить занадто короткі дані.
+                    [upload_failed] => Під час завантаження файлу сталася невідома помилка.
+                    [upload_file_type_invalid] => Вам не дозволено завантажувати файли цього типу.
+                    [upload_file_too_large] => Завантажений файл завеликий.
+                    [upload_failed_php_error] => Під час завантаження файлу сталася помилка.
+                    [invalid_date] => Введіть дату у форматі YYYY-MM-DD.
+                    [date_too_early] => Це поле має занадто ранню дату.
+                    [date_too_late] => Це поле має надто пізню дату.
+                    [invalid_number] => Будь ласка, введіть номер.
+                    [number_too_small] => Це поле має занадто замалий номер.
+                    [number_too_large] => Це поле має занадто великий номер.
+                    [quiz_answer_not_correct] => Неправильна відповідь на питання перевірки.
+                    [invalid_email] => Будь ласка, введіть адресу електронної пошти.
+                    [invalid_url] => Будь ласка, введіть URL.
+                    [invalid_tel] => Будь ласка, введіть номер телефону.
+                    [captcha_not_match] => Введено невірний контрольний код.
+                )
+
+            [additional_settings] => skip_mail: on
+        )
+
+    [unit_tag:WPCF7_ContactForm:private] => 
+    [responses_count:WPCF7_ContactForm:private] => 0
+    [scanned_form_tags:WPCF7_ContactForm:private] => Array
+        (
+            [0] => WPCF7_FormTag Object
+                (
+                    [type] => text*
+                    [basetype] => text
+                    [raw_name] => username
+                    [name] => username
+                    [options] => Array
+                        (
+                            [0] => class:form__field
+                            [1] => autocomplete:name
+                            [2] => placeholder
+                        )
+
+                    [raw_values] => Array
+                        (
+                            [0] => Им’я
+                        )
+
+                    [values] => Array
+                        (
+                            [0] => Им’я
+                        )
+
+                    [pipes] => WPCF7_Pipes Object
+                        (
+                            [pipes:WPCF7_Pipes:private] => Array
+                                (
+                                    [0] => WPCF7_Pipe Object
+                                        (
+                                            [before] => Им’я
+                                            [after] => Им’я
+                                        )
+
+                                )
+
+                        )
+
+                    [labels] => Array
+                        (
+                            [0] => Им’я
+                        )
+
+                    [attr] => 
+                    [content] => 
+                )
+
+            [1] => WPCF7_FormTag Object
+                (
+                    [type] => tel*
+                    [basetype] => tel
+                    [raw_name] => phone
+                    [name] => phone
+                    [options] => Array
+                        (
+                            [0] => class:form__field
+                            [1] => autocomplete:tel
+                            [2] => placeholder
+                        )
+
+                    [raw_values] => Array
+                        (
+                            [0] => +38 ( )
+                        )
+
+                    [values] => Array
+                        (
+                            [0] => +38 ( )
+                        )
+
+                    [pipes] => WPCF7_Pipes Object
+                        (
+                            [pipes:WPCF7_Pipes:private] => Array
+                                (
+                                    [0] => WPCF7_Pipe Object
+                                        (
+                                            [before] => +38 ( )
+                                            [after] => +38 ( )
+                                        )
+
+                                )
+
+                        )
+
+                    [labels] => Array
+                        (
+                            [0] => +38 ( )
+                        )
+
+                    [attr] => 
+                    [content] => 
+                )
+
+            [2] => WPCF7_FormTag Object
+                (
+                    [type] => email*
+                    [basetype] => email
+                    [raw_name] => email
+                    [name] => email
+                    [options] => Array
+                        (
+                            [0] => class:form__field
+                            [1] => autocomplete:email
+                            [2] => placeholder
+                        )
+
+                    [raw_values] => Array
+                        (
+                            [0] => Email
+                        )
+
+                    [values] => Array
+                        (
+                            [0] => Email
+                        )
+
+                    [pipes] => WPCF7_Pipes Object
+                        (
+                            [pipes:WPCF7_Pipes:private] => Array
+                                (
+                                    [0] => WPCF7_Pipe Object
+                                        (
+                                            [before] => Email
+                                            [after] => Email
+                                        )
+
+                                )
+
+                        )
+
+                    [labels] => Array
+                        (
+                            [0] => Email
+                        )
+
+                    [attr] => 
+                    [content] => 
+                )
+
+            [3] => WPCF7_FormTag Object
+                (
+                    [type] => select*
+                    [basetype] => select
+                    [raw_name] => select
+                    [name] => select
+                    [options] => Array
+                        (
+                            [0] => class:form__field
+                            [1] => class:form__field-select
+                        )
+
+                    [raw_values] => Array
+                        (
+                            [0] => Зручний спосіб для отримання
+                            [1] => Email
+                            [2] => Telegram
+                            [3] => WhatsApp
+                        )
+
+                    [values] => Array
+                        (
+                            [0] => Зручний спосіб для отримання
+                            [1] => Email
+                            [2] => Telegram
+                            [3] => WhatsApp
+                        )
+
+                    [pipes] => WPCF7_Pipes Object
+                        (
+                            [pipes:WPCF7_Pipes:private] => Array
+                                (
+                                    [0] => WPCF7_Pipe Object
+                                        (
+                                            [before] => Зручний спосіб для отримання
+                                            [after] => Зручний спосіб для отримання
+                                        )
+
+                                    [1] => WPCF7_Pipe Object
+                                        (
+                                            [before] => Email
+                                            [after] => Email
+                                        )
+
+                                    [2] => WPCF7_Pipe Object
+                                        (
+                                            [before] => Telegram
+                                            [after] => Telegram
+                                        )
+
+                                    [3] => WPCF7_Pipe Object
+                                        (
+                                            [before] => WhatsApp
+                                            [after] => WhatsApp
+                                        )
+
+                                )
+
+                        )
+
+                    [labels] => Array
+                        (
+                            [0] => Зручний спосіб для отримання
+                            [1] => Email
+                            [2] => Telegram
+                            [3] => WhatsApp
+                        )
+
+                    [attr] => 
+                    [content] => 
+                )
+
+            [4] => WPCF7_FormTag Object
+                (
+                    [type] => submit
+                    [basetype] => submit
+                    [raw_name] => 
+                    [name] => 
+                    [options] => Array
+                        (
+                            [0] => class:form__button
+                            [1] => class:click
+                        )
+
+                    [raw_values] => Array
+                        (
+                            [0] => ВІДПРАВИТИ
+                        )
+
+                    [values] => Array
+                        (
+                            [0] => ВІДПРАВИТИ
+                        )
+
+                    [pipes] => WPCF7_Pipes Object
+                        (
+                            [pipes:WPCF7_Pipes:private] => Array
+                                (
+                                    [0] => WPCF7_Pipe Object
+                                        (
+                                            [before] => ВІДПРАВИТИ
+                                            [after] => ВІДПРАВИТИ
+                                        )
+
+                                )
+
+                        )
+
+                    [labels] => Array
+                        (
+                            [0] => ВІДПРАВИТИ
+                        )
+
+                    [attr] => 
+                    [content] => 
+                )
+
+        )
+
+    [shortcode_atts:WPCF7_ContactForm:private] => Array
+        (
+        )
+
+    [hash:WPCF7_ContactForm:private] => 8da0db100b7b6f7d4f7406b540626017df256ecc
+    [schema:protected] => WPCF7_SWV_Schema Object
+        (
+            [properties:protected] => Array
+                (
+                    [version] => Contact Form 7 SWV Schema 2023-07
+                    [locale] => uk
+                )
+
+            [rules:protected] => Array
+                (
+                    [0] => WPCF7_SWV_RequiredRule Object
+                        (
+                            [properties:protected] => Array
+                                (
+                                    [field] => select
+                                    [error] => Будь ласка, заповніть це поле.
+                                )
+
+                        )
+
+                    [1] => WPCF7_SWV_RequiredRule Object
+                        (
+                            [properties:protected] => Array
+                                (
+                                    [field] => username
+                                    [error] => Будь ласка, заповніть це поле.
+                                )
+
+                        )
+
+                    [2] => WPCF7_SWV_RequiredRule Object
+                        (
+                            [properties:protected] => Array
+                                (
+                                    [field] => phone
+                                    [error] => Будь ласка, заповніть це поле.
+                                )
+
+                        )
+
+                    [3] => WPCF7_SWV_TelRule Object
+                        (
+                            [properties:protected] => Array
+                                (
+                                    [field] => phone
+                                    [error] => Будь ласка, введіть номер телефону.
+                                )
+
+                        )
+
+                    [4] => WPCF7_SWV_RequiredRule Object
+                        (
+                            [properties:protected] => Array
+                                (
+                                    [field] => email
+                                    [error] => Будь ласка, заповніть це поле.
+                                )
+
+                        )
+
+                    [5] => WPCF7_SWV_EmailRule Object
+                        (
+                            [properties:protected] => Array
+                                (
+                                    [field] => email
+                                    [error] => Будь ласка, введіть адресу електронної пошти.
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+2023-10-06 15:35:32 - https://api.telegram.org/bot6501371678:AAGVh68vMda0BX_7---hh_SbjF9WuVjk7ro/sendMessage?chat_id=-1001974460578&parse_mode=html&text=Форма - <b>Отримати каталог</b>Ім'я: %D0%90%D0%BD%D1%82%D0%BE%D0%BD+%D0%93%D0%BB%D1%83%D1%89%D0%B5%D0%BD%D0%BA%D0%BE%0AТелефон: %2B380683266551%0AПошта: glantoshka%40gmail.com%0AОтримати каталог на: WhatsApp%0A
+2023-10-06 15:35:32 - stdClass Object
+(
+    [ok] => 1
+    [result] => stdClass Object
+        (
+            [message_id] => 36
+            [from] => stdClass Object
+                (
+                    [id] => 6501371678
+                    [is_bot] => 1
+                    [first_name] => nasoloda bot
+                    [username] => chat_nasoloda_bot
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => -1001974460578
+                    [title] => Насолода - чат бот
+                    [type] => supergroup
+                )
+
+            [date] => 1696606533
+            [text] => Форма - Отримати каталогІм'я: Антон Глущенко
+Телефон: +380683266551
+Пошта: glantoshka@gmail.com
+Отримати каталог на: WhatsApp
+            [entities] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [offset] => 8
+                            [length] => 16
+                            [type] => bold
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [offset] => 54
+                            [length] => 13
+                            [type] => phone_number
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [offset] => 75
+                            [length] => 20
+                            [type] => email
+                        )
+
+                )
+
+        )
+
+)
+
+2023-10-06 15:35:32 - Array
+(
+    [username] => Антон Глущенко
+    [phone] => +380683266551
+    [email] => glantoshka@gmail.com
+    [select] => Array
+        (
+            [0] => WhatsApp
+        )
+
+)
+
+2023-10-06 15:35:32 - WPCF7_ContactForm Object
+(
+    [id:WPCF7_ContactForm:private] => 26
+    [name:WPCF7_ContactForm:private] => get-catalog-form
+    [title:WPCF7_ContactForm:private] => Отримати каталог
+    [locale:WPCF7_ContactForm:private] => uk
+    [properties:WPCF7_ContactForm:private] => Array
+        (
+            [form] => <div class="form__heading">
+          <steong class="form__title">отримати каталог</steong>
+          <p class="form__desc">
+            Заповніть дані і наш менеджер зателефонує вам
+          </p>
+        </div>
+        <div class="form__field-list">
+            [text* username class:form__field autocomplete:name placeholder "Им’я"]
+            [tel* phone class:form__field autocomplete:tel placeholder "+38 ( )"]
+            [email* email class:form__field autocomplete:email placeholder "Email"]
+            [select* select class:form__field class:form__field-select "Зручний спосіб для отримання" "Email" "Telegram" "WhatsApp"]
+        </div>
+        [submit  class:form__button class:click "ВІДПРАВИТИ"]
+        <button type="button" class="form__close get-catalog__close click">
+          <img class="header__menu-img" src="/wp-content/themes/nasoloda/svg/burger-close.svg" alt="меню" />
+        </button>
+            [mail] => Array
+                (
+                    [active] => 1
+                    [subject] => [_site_title] "[your-subject]"
+                    [sender] => [_site_title] <wordpress@pleasure>
+                    [recipient] => [_site_admin_email]
+                    [body] => Від: [your-name] [your-email]
+Тема: [your-subject]
+
+Текст повідомлення:
+[your-message]
+
+-- 
+This is a notification that a contact form was submitted on your website ([_site_title] [_site_url]).
+                    [additional_headers] => Reply-To: [your-email]
+                    [attachments] => 
+                    [use_html] => 
+                    [exclude_blank] => 
+                )
+
+            [mail_2] => Array
+                (
+                    [active] => 
+                    [subject] => [_site_title] "[your-subject]"
+                    [sender] => [_site_title] <wordpress@pleasure>
+                    [recipient] => [your-email]
+                    [body] => Текст повідомлення:
+[your-message]
+
+-- 
+This email is a receipt for your contact form submission on our website ([_site_title] [_site_url]) in which your email address was used. If that was not you, please ignore this message.
+                    [additional_headers] => Reply-To: [_site_admin_email]
+                    [attachments] => 
+                    [use_html] => 
+                    [exclude_blank] => 
+                )
+
+            [messages] => Array
+                (
+                    [mail_sent_ok] => Дякуємо за Ваше повідомлення. Воно було надіслане.
+                    [mail_sent_ng] => Сталася помилка під час спроби відправити Ваше повідомлення. Будь ласка, спробуйте ще раз пізніше.
+                    [validation_error] => Одне або декілька полів містять помилкові дані. Будь ласка, перевірте їх і спробуйте ще раз.
+                    [spam] => Сталася помилка під час спроби відправити Ваше повідомлення. Будь ласка, спробуйте ще раз пізніше.
+                    [accept_terms] => Ви повинні прийняти умови та положення перед тим, як відправляти Ваше повідомлення.
+                    [invalid_required] => Будь ласка, заповніть це поле.
+                    [invalid_too_long] => Це поле містить занадто довгі дані.
+                    [invalid_too_short] => Це поле містить занадто короткі дані.
+                    [upload_failed] => Під час завантаження файлу сталася невідома помилка.
+                    [upload_file_type_invalid] => Вам не дозволено завантажувати файли цього типу.
+                    [upload_file_too_large] => Завантажений файл завеликий.
+                    [upload_failed_php_error] => Під час завантаження файлу сталася помилка.
+                    [invalid_date] => Введіть дату у форматі YYYY-MM-DD.
+                    [date_too_early] => Це поле має занадто ранню дату.
+                    [date_too_late] => Це поле має надто пізню дату.
+                    [invalid_number] => Будь ласка, введіть номер.
+                    [number_too_small] => Це поле має занадто замалий номер.
+                    [number_too_large] => Це поле має занадто великий номер.
+                    [quiz_answer_not_correct] => Неправильна відповідь на питання перевірки.
+                    [invalid_email] => Будь ласка, введіть адресу електронної пошти.
+                    [invalid_url] => Будь ласка, введіть URL.
+                    [invalid_tel] => Будь ласка, введіть номер телефону.
+                    [captcha_not_match] => Введено невірний контрольний код.
+                )
+
+            [additional_settings] => skip_mail: on
+        )
+
+    [unit_tag:WPCF7_ContactForm:private] => 
+    [responses_count:WPCF7_ContactForm:private] => 0
+    [scanned_form_tags:WPCF7_ContactForm:private] => Array
+        (
+            [0] => WPCF7_FormTag Object
+                (
+                    [type] => text*
+                    [basetype] => text
+                    [raw_name] => username
+                    [name] => username
+                    [options] => Array
+                        (
+                            [0] => class:form__field
+                            [1] => autocomplete:name
+                            [2] => placeholder
+                        )
+
+                    [raw_values] => Array
+                        (
+                            [0] => Им’я
+                        )
+
+                    [values] => Array
+                        (
+                            [0] => Им’я
+                        )
+
+                    [pipes] => WPCF7_Pipes Object
+                        (
+                            [pipes:WPCF7_Pipes:private] => Array
+                                (
+                                    [0] => WPCF7_Pipe Object
+                                        (
+                                            [before] => Им’я
+                                            [after] => Им’я
+                                        )
+
+                                )
+
+                        )
+
+                    [labels] => Array
+                        (
+                            [0] => Им’я
+                        )
+
+                    [attr] => 
+                    [content] => 
+                )
+
+            [1] => WPCF7_FormTag Object
+                (
+                    [type] => tel*
+                    [basetype] => tel
+                    [raw_name] => phone
+                    [name] => phone
+                    [options] => Array
+                        (
+                            [0] => class:form__field
+                            [1] => autocomplete:tel
+                            [2] => placeholder
+                        )
+
+                    [raw_values] => Array
+                        (
+                            [0] => +38 ( )
+                        )
+
+                    [values] => Array
+                        (
+                            [0] => +38 ( )
+                        )
+
+                    [pipes] => WPCF7_Pipes Object
+                        (
+                            [pipes:WPCF7_Pipes:private] => Array
+                                (
+                                    [0] => WPCF7_Pipe Object
+                                        (
+                                            [before] => +38 ( )
+                                            [after] => +38 ( )
+                                        )
+
+                                )
+
+                        )
+
+                    [labels] => Array
+                        (
+                            [0] => +38 ( )
+                        )
+
+                    [attr] => 
+                    [content] => 
+                )
+
+            [2] => WPCF7_FormTag Object
+                (
+                    [type] => email*
+                    [basetype] => email
+                    [raw_name] => email
+                    [name] => email
+                    [options] => Array
+                        (
+                            [0] => class:form__field
+                            [1] => autocomplete:email
+                            [2] => placeholder
+                        )
+
+                    [raw_values] => Array
+                        (
+                            [0] => Email
+                        )
+
+                    [values] => Array
+                        (
+                            [0] => Email
+                        )
+
+                    [pipes] => WPCF7_Pipes Object
+                        (
+                            [pipes:WPCF7_Pipes:private] => Array
+                                (
+                                    [0] => WPCF7_Pipe Object
+                                        (
+                                            [before] => Email
+                                            [after] => Email
+                                        )
+
+                                )
+
+                        )
+
+                    [labels] => Array
+                        (
+                            [0] => Email
+                        )
+
+                    [attr] => 
+                    [content] => 
+                )
+
+            [3] => WPCF7_FormTag Object
+                (
+                    [type] => select*
+                    [basetype] => select
+                    [raw_name] => select
+                    [name] => select
+                    [options] => Array
+                        (
+                            [0] => class:form__field
+                            [1] => class:form__field-select
+                        )
+
+                    [raw_values] => Array
+                        (
+                            [0] => Зручний спосіб для отримання
+                            [1] => Email
+                            [2] => Telegram
+                            [3] => WhatsApp
+                        )
+
+                    [values] => Array
+                        (
+                            [0] => Зручний спосіб для отримання
+                            [1] => Email
+                            [2] => Telegram
+                            [3] => WhatsApp
+                        )
+
+                    [pipes] => WPCF7_Pipes Object
+                        (
+                            [pipes:WPCF7_Pipes:private] => Array
+                                (
+                                    [0] => WPCF7_Pipe Object
+                                        (
+                                            [before] => Зручний спосіб для отримання
+                                            [after] => Зручний спосіб для отримання
+                                        )
+
+                                    [1] => WPCF7_Pipe Object
+                                        (
+                                            [before] => Email
+                                            [after] => Email
+                                        )
+
+                                    [2] => WPCF7_Pipe Object
+                                        (
+                                            [before] => Telegram
+                                            [after] => Telegram
+                                        )
+
+                                    [3] => WPCF7_Pipe Object
+                                        (
+                                            [before] => WhatsApp
+                                            [after] => WhatsApp
+                                        )
+
+                                )
+
+                        )
+
+                    [labels] => Array
+                        (
+                            [0] => Зручний спосіб для отримання
+                            [1] => Email
+                            [2] => Telegram
+                            [3] => WhatsApp
+                        )
+
+                    [attr] => 
+                    [content] => 
+                )
+
+            [4] => WPCF7_FormTag Object
+                (
+                    [type] => submit
+                    [basetype] => submit
+                    [raw_name] => 
+                    [name] => 
+                    [options] => Array
+                        (
+                            [0] => class:form__button
+                            [1] => class:click
+                        )
+
+                    [raw_values] => Array
+                        (
+                            [0] => ВІДПРАВИТИ
+                        )
+
+                    [values] => Array
+                        (
+                            [0] => ВІДПРАВИТИ
+                        )
+
+                    [pipes] => WPCF7_Pipes Object
+                        (
+                            [pipes:WPCF7_Pipes:private] => Array
+                                (
+                                    [0] => WPCF7_Pipe Object
+                                        (
+                                            [before] => ВІДПРАВИТИ
+                                            [after] => ВІДПРАВИТИ
+                                        )
+
+                                )
+
+                        )
+
+                    [labels] => Array
+                        (
+                            [0] => ВІДПРАВИТИ
+                        )
+
+                    [attr] => 
+                    [content] => 
+                )
+
+        )
+
+    [shortcode_atts:WPCF7_ContactForm:private] => Array
+        (
+        )
+
+    [hash:WPCF7_ContactForm:private] => 8da0db100b7b6f7d4f7406b540626017df256ecc
+    [schema:protected] => WPCF7_SWV_Schema Object
+        (
+            [properties:protected] => Array
+                (
+                    [version] => Contact Form 7 SWV Schema 2023-07
+                    [locale] => uk
+                )
+
+            [rules:protected] => Array
+                (
+                    [0] => WPCF7_SWV_RequiredRule Object
+                        (
+                            [properties:protected] => Array
+                                (
+                                    [field] => select
+                                    [error] => Будь ласка, заповніть це поле.
+                                )
+
+                        )
+
+                    [1] => WPCF7_SWV_RequiredRule Object
+                        (
+                            [properties:protected] => Array
+                                (
+                                    [field] => username
+                                    [error] => Будь ласка, заповніть це поле.
+                                )
+
+                        )
+
+                    [2] => WPCF7_SWV_RequiredRule Object
+                        (
+                            [properties:protected] => Array
+                                (
+                                    [field] => phone
+                                    [error] => Будь ласка, заповніть це поле.
+                                )
+
+                        )
+
+                    [3] => WPCF7_SWV_TelRule Object
+                        (
+                            [properties:protected] => Array
+                                (
+                                    [field] => phone
+                                    [error] => Будь ласка, введіть номер телефону.
+                                )
+
+                        )
+
+                    [4] => WPCF7_SWV_RequiredRule Object
+                        (
+                            [properties:protected] => Array
+                                (
+                                    [field] => email
+                                    [error] => Будь ласка, заповніть це поле.
+                                )
+
+                        )
+
+                    [5] => WPCF7_SWV_EmailRule Object
+                        (
+                            [properties:protected] => Array
+                                (
+                                    [field] => email
+                                    [error] => Будь ласка, введіть адресу електронної пошти.
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
